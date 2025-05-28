@@ -27,7 +27,7 @@ header {
 
 header h1 {
   text-align: center;
-  color: #00ffff;
+  color: #3d74dd;
   margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ nav a:hover {
 
 .hero h2 {
   font-size: 2.5rem;
-  color: #00ffff;
+  color: #3d74dd;
 }
 
 .hero p {
@@ -85,8 +85,8 @@ section {
   border-bottom: 1px solid #222;
 }
 
-h2, h3 {
-  color: #00ffff;
+h1, h2, h3 {
+  color: #3d74dd;
   margin-bottom: 20px;
   text-align: center;
 }
