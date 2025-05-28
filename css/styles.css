@@ -12,6 +12,7 @@ body {
   background-repeat: repeat;
   color: #3d74dd;
   line-height: 1.6;
+  margin: 0;
 }
 
 .container {
@@ -21,8 +22,15 @@ body {
   padding: 20px 0;
 }
 
+header img.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+}
+
 header {
-  background: #121212;
+  background: #040d10;
   padding: 20px 0;
   border-bottom: 2px solid #00ffff;
 }
@@ -51,14 +59,18 @@ nav a:hover {
 }
 
 .hero {
-  background: rgba(0, 0, 0, 0.6);
+  background: #040d10;
+  width: 100vw;
+  padding: 30px 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin: 0;
   text-align: center;
-  padding: 30px 0;        /* less vertical padding */
-  width: 100vw;            /* full viewport width */
-  max-width: 100%;         /* no max width constraint */
-  border-radius: 0;        /* remove rounding on full width */
-  box-sizing: border-box;  /* ensure padding doesn't overflow */
-  margin: 0;               /* no margin to fill width */
+}
+
+.hero .container {
+  max-width: 900px;  /* limit text width */
+  margin: 0 auto;
 }
 
 .hero h2 {
