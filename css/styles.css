@@ -51,19 +51,22 @@ nav a:hover {
 }
 
 .hero {
-  background: radial-gradient(circle at center, #1a1a1a, #000);
+  background: rgba(0, 0, 0, 0.6);
   text-align: center;
-  padding: 60px 20px;
+  padding: 30px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
 }
 
 .hero h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #3d74dd;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin: 20px 0;
+  font-size: 1rem;
+  margin: 15px 0;
 }
 
 .hero .btn {
