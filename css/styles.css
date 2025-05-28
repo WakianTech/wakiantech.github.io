@@ -8,7 +8,7 @@
 body {
   font-family: 'Orbitron', sans-serif;
   background-color: #040d10;
-  background-image: url('images/Background.gif');
+  background-image: url('../images/Background.gif');
   background-repeat: repeat;
   color: #3d74dd;
   line-height: 1.6;
@@ -32,7 +32,7 @@ header img.logo {
 header {
   background: #040d10;
   padding: 20px 0;
-  border-bottom: 2px solid #00ffff;
+  border-bottom: 2px solid #3d74dd;
 }
 
 header h1 {
@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .hero {
-  background: #040d10;
+  background: rgba(0, 0, 0, 0.3);;
   width: 100vw;
   padding: 30px 0;
   border-radius: 0;
@@ -101,13 +101,19 @@ nav a:hover {
 
 section {
   padding: 40px 0;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #3d74dd;
 }
 
 h1, h2, h3 {
   color: #3d74dd;
   margin-bottom: 20px;
   text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #3d74dd;
+  margin: 20px 0;
 }
 
 .game-category {
@@ -118,7 +124,7 @@ h1, h2, h3 {
   background: #1e1e1e;
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #333;
+  border: 1px solid #3d74dd;
   border-radius: 8px;
   text-align: center;
 }
@@ -143,27 +149,39 @@ h1, h2, h3 {
 
 #creator-support {
   padding: 40px 0;
-  border-top: 1px solid #222;
+  border-top: 1px solid #3d74dd;
   text-align: center;
-  color: #3d74dd;
 }
 
-#creator-support a {
-  color: #ddedf4;
-  text-decoration: none;
+.creator-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.creator-badges span {
+  background: rgba(61, 116, 221, 0.2);
+  border: 1px solid #3d74dd;
+  color: #3d74dd;
+  padding: 10px 20px;
+  border-radius: 8px;
   font-weight: bold;
-  transition: color 0.3s;
+  transition: background 0.3s;
 }
 
-#creator-support a:hover {
-  color: #3d74dd;
+.creator-badges span:hover {
+  background: #3d74dd;
+  color: #040d10;
+  cursor: default;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   background: #121212;
-  color: #aaa;
+  color: #ddedf4;
   font-size: 0.9rem;
 }
 
