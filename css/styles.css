@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #00ffff;
+  color: #3d74dd;
 }
 
 .hero {
@@ -66,17 +66,18 @@ nav a:hover {
 
 .hero .btn {
   padding: 10px 20px;
-  background: #00ffff;
+  background: #ddedf4;
   color: #000;
   border: none;
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
-  transition: background 0.3s;
+  transition: background 0.3s, color 0.3s;
 }
 
 .hero .btn:hover {
-  background: #00cccc;
+  background: #3d74dd;
+  color: #fff;
 }
 
 section {
@@ -114,6 +115,11 @@ h2, h3 {
   margin-top: 10px;
   color: #ddedf4;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.game-item a:hover {
+  color: #3d74dd;
 }
 
 footer {
