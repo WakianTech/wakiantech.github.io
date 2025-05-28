@@ -141,6 +141,24 @@ h1, h2, h3 {
   color: #3d74dd;
 }
 
+#creator-support {
+  padding: 40px 0;
+  border-top: 1px solid #222;
+  text-align: center;
+  color: #3d74dd;
+}
+
+#creator-support a {
+  color: #ddedf4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#creator-support a:hover {
+  color: #3d74dd;
+}
+
 footer {
   text-align: center;
   padding: 20px;
