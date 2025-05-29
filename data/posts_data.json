@@ -1,20 +1,8 @@
 [
   {
-    "title": "New Feature Launched!",
-    "date": "2025-05-27",
+    "title": "Launching Our Official Website",
+    "date": "5/28/2025",
     "category": "updates",
-    "content": "We just launched a new tool to empower creators. Check it out!"
-  },
-  {
-    "title": "Devlog #3: Progress Report",
-    "date": "2025-05-25",
-    "category": "devlog",
-    "content": "Game mechanics are shaping up! Here's what's new in our latest update..."
-  },
-  {
-    "title": "Community Event Incoming",
-    "date": "2025-05-20",
-    "category": "events",
-    "content": "Join us for a live Q&A and sneak peek at our upcoming titles!"
+    "content": "Though not yet finished, we are proud to announce that we are launching our official website. For years we have been using itch.io as our launchpad, but it's finally time to blast off! We have so many awesome ideas and plans ahead, so we hope you'll stick around."
   }
 ]
