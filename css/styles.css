@@ -194,7 +194,6 @@ hr {
   );
 }
 
-
 .feature-text {
   max-width: 500px;
 }
@@ -305,25 +304,100 @@ hr {
   color: #3d74dd;
 }
 
-#pagination {
-  text-align: center;
-  margin-top: 20px;
+.news-post h2 {
+  margin-top: 0;
+  color: #3d74dd;
 }
 
-#pagination button {
+.news-post .tag {
+  display: inline-block;
   background-color: #3d74dd;
   color: #040d10;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 5px;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
 }
 
-#pagination button:hover {
-  background-color: #ddedf4;
+.news-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+#search-input {
+  font-family: 'Orbitron', sans-serif;
+  flex: 1;
+  min-width: 250px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #3d74dd;
+  border-radius: 5px;
+  background-color: #040d10;
+  color: #3d74dd;
+}
+
+#search-input::placeholder {
+  color: #6b8cdb;
+}
+
+.category-filters button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: transparent;
+  border: 2px solid #3d74dd;
+  color: #3d74dd;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-filters button:hover,
+.category-filters button.active {
+  background-color: #3d74dd;
   color: #040d10;
+}
+
+#news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pagination button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: transparent;
+  border: 2px solid #3d74dd;
+  color: #3d74dd;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #3d74dd;
+  color: #040d10;
+}
+
+.pagination #page-number {
+  font-weight: 600;
+  color: #3d74dd;
 }
 
 footer {
