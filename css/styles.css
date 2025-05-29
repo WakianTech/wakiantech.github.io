@@ -296,6 +296,36 @@ hr {
   width: auto;
 }
 
+.news-post {
+  background-color: #040d10;
+  border: 1px solid #3d74dd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: #3d74dd;
+}
+
+#pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pagination button {
+  background-color: #3d74dd;
+  color: #040d10;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#pagination button:hover {
+  background-color: #ddedf4;
+  color: #040d10;
+}
+
 footer {
   text-align: center;
   padding: 20px;

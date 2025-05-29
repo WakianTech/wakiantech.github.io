@@ -1,0 +1,20 @@
+[
+  {
+    "title": "New Feature Launched!",
+    "date": "2025-05-27",
+    "category": "updates",
+    "content": "We just launched a new tool to empower creators. Check it out!"
+  },
+  {
+    "title": "Devlog #3: Progress Report",
+    "date": "2025-05-25",
+    "category": "devlog",
+    "content": "Game mechanics are shaping up! Here's what's new in our latest update..."
+  },
+  {
+    "title": "Community Event Incoming",
+    "date": "2025-05-20",
+    "category": "events",
+    "content": "Join us for a live Q&A and sneak peek at our upcoming titles!"
+  }
+]
