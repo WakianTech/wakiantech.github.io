@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Main */
 body {
   font-family: 'Orbitron', sans-serif;
   background-color: #040d10;
@@ -13,13 +21,6 @@ body {
   color: #3d74dd;
   line-height: 1.6;
   margin: 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px 0;
 }
 
 header img.logo {
@@ -58,6 +59,43 @@ nav a:hover {
   color: #3d74dd;
 }
 
+section {
+  padding: 40px 0;
+  background-color: rgba(4, 13, 16, 0.75);
+  border-bottom: 1px solid #3d74dd;
+}
+
+h1, h2, h3 {
+  color: #3d74dd;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #3d74dd;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #121212;
+  color: #ddedf4;
+  font-size: 0.9rem;
+}
+
+/* ALL THE CONTENT BELOW ARE CUSTOM */
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Hero */
 .hero {
   background: rgba(0, 0, 0, 0.3);
   padding: 30px 0;
@@ -98,24 +136,7 @@ nav a:hover {
   color: #fff;
 }
 
-section {
-  padding: 40px 0;
-  background-color: rgba(4, 13, 16, 0.75);
-  border-bottom: 1px solid #3d74dd;
-}
-
-h1, h2, h3 {
-  color: #3d74dd;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-hr {
-  border: none;
-  border-top: 2px solid #3d74dd;
-  margin: 20px 0;
-}
-
+/* Button */
 .btn {
   display: inline-block;
   background-color: #3d74dd;
@@ -134,6 +155,31 @@ hr {
   color: #040d10;
 }
 
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: -2.5rem; /* slight overlay effect */
+  margin-bottom: 2.5rem; /* space below icons */
+  padding: 0.5rem 0;
+  z-index: 10;
+  position: relative;
+}
+
+.social-icons a img {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 0 2px #3d74dd);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 4px #ddedf4);
+}
+
+/* Creator Support Badges */
 #creator-support {
   padding: 40px 0;
   border-top: 1px solid #3d74dd;
@@ -165,6 +211,7 @@ hr {
   color: #040d10;
 }
 
+/* Feature */
 #feature {
   padding: 60px 0;
 }
@@ -209,6 +256,7 @@ hr {
   line-height: 1.5;
 }
 
+/* Games List */
 #games-list {
   padding: 60px 0;
 }
@@ -294,6 +342,7 @@ hr {
   width: auto;
 }
 
+/* News */
 .news-post {
   background-color: #040d10;
   border: 1px solid #3d74dd;
@@ -399,24 +448,10 @@ hr {
   color: #3d74dd;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #121212;
-  color: #ddedf4;
-  font-size: 0.9rem;
-}
-
+/* Error */
 .error {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 5%;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
