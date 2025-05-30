@@ -23,30 +23,22 @@ function getFilteredPosts() {
 }
 
 function renderPosts(posts) {
-  newsContainer.innerHTML = "";
-
-  if (posts.length === 0) {
-    newsContainer.innerHTML = "<p>No posts found.</p>";
-    return;
-  }
+  const container = document.getElementById('news-container');
+  container.innerHTML = '';
 
   posts.forEach(post => {
-    const postEl = document.createElement("div");
-    postEl.classList.add("news-post");
-
-    let imageHTML = post.image
-      ? `<img src="${post.image}" alt="${post.title}" class="news-image">`
-      : "";
+    const postEl = document.createElement('div');
+    postEl.className = 'news-post';
+    postEl.dataset.category = post.category;
 
     postEl.innerHTML = `
-      ${imageHTML}
-      <span class="tag">${post.category}</span>
+      <span class="tag">${post.category.charAt(0).toUpperCase() + post.category.slice(1)}</span>
       <h2>${post.title}</h2>
-      <p><strong>${post.date}</strong></p>
+      <p><strong>Date:</strong> ${post.date}</p>
       <p>${post.content}</p>
     `;
 
-    newsContainer.appendChild(postEl);
+    container.appendChild(postEl);
   });
 }
 
