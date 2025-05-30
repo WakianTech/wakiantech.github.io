@@ -31,7 +31,12 @@ function renderPosts(posts) {
     postEl.className = 'news-post';
     postEl.dataset.category = post.category;
 
+    let imageHTML = post.image
+      ? `<img src="${post.image}" alt="${post.title}" class="news-image">`
+      : "";
+
     postEl.innerHTML = `
+      ${imageHTML}
       <span class="tag">${post.category.charAt(0).toUpperCase() + post.category.slice(1)}</span>
       <h2>${post.title}</h2>
       <p><strong>Date:</strong> ${post.date}</p>
