@@ -1,9 +1,16 @@
 [
   {
+    "title": "Trash Collector Devlog",
+    "date": "5/30/2025",
+    "category": "devlog",
+    "image": "images/news/TrashCollector.png",
+    "content": "We are currently in the early development phase of our potential debut Steam title, Trash Collector. This game is envisioned as a cozy, whimsical, and retro-themed trash collecting simulator offering numerous levels. Development began just over a month ago, placing the project in its very early stages. Upon achieving a sufficiently playable state, we intend to release a complimentary demo to engage a broad audience of gamers. We are actively seeking suggestions and new ideas to enhance the game."
+  },
+  {
     "title": "Launching Our Official Website",
     "date": "5/28/2025",
     "category": "updates",
     "image": "images/news/Header.png",
-    "content": "Though not yet finished, we are proud to announce that we are launching our official website. For years we have been using itch.io as our launchpad, but it's finally time to blast off! We have so many awesome ideas and plans ahead, so we hope you'll stick around."
+    "content": "We are proud to announce the imminent launch of our official website. Although not yet fully completed, this initiative represents a significant step forward for our presence. While itch.io has served as our primary platform for releases over the past several years, we are now transitioning to a dedicated online space. We have numerous ambitious plans and developments in store, and we encourage you to follow our journey."
   }
 ]
