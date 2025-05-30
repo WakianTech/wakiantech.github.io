@@ -36,9 +36,9 @@ function renderPosts(posts) {
       : "";
 
     postEl.innerHTML = `
-      ${imageHTML}
       <span class="tag">${post.category.charAt(0).toUpperCase() + post.category.slice(1)}</span>
       <h2>${post.title}</h2>
+      ${imageHTML}
       <p><strong>Date:</strong> ${post.date}</p>
       <p>${post.content}</p>
     `;
